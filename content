@@ -1,0 +1,20 @@
+styles.css
+
+ p
+ px-> font size width, ht
+ em -16px-20px
+ rem-> 16px
+ % ->
+ vh- viewport ht
+ vw- viewport width
+
+ how to debug/use developer tools
+ different unit of size
+
+ box model 4 layers
+
+ content
+ padding
+ border
+ 
+ margin
