@@ -18,3 +18,26 @@ styles.css
  border
  
  margin
+
+101 students (data - hold)
+ 2 picnic spots -> A andB
+
+2. collect all the responses
+create 2 vote counts A& B (0,0)
+3. Check (a or b) (sort it "conditional")
+4. put the chit in the respective category
+5. go through all the responses and repeat steps 3-5 repate, recusive, loops
+6. compare both 
+7. announce the result
+
+DATA -> A way to hold some data- variables
+conditions-> A way to take decisions-> if/else Condition 
+LOOPS-> doing some thing recursively-> for loop 
+
+
+1. we will use a variable to hold all the responses 
+2. we will use variables the buckets 
+3. Go through all the responses with A for LOOPS
+4. we will use an if /Else conditionals statement
+5. Compare A and B 
+6. Announce 
