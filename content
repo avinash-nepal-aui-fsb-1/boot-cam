@@ -41,3 +41,33 @@ LOOPS-> doing some thing recursively-> for loop
 4. we will use an if /Else conditionals statement
 5. Compare A and B 
 6. Announce 
+
+Css Flex box
+Targeting elements on the page
+1. Element directly (target all the similar elements on the page)
+2. Class (target a set of element)-> A subset
+3. ID 
+
+
+
+element level Targeting
+color
+padding
+margin
+font-weight
+border
+width
+height
+
+visual properties -> colors, background-colors, Font-family
+DImensional properties-> ht, wt, font size, padding
+Alignment properties -> display (key value pair) 
+
+display: block=> doesn't let another element sit next to it.
+p
+div
+h1-h6
+
+display: inline-block=> it lets another element (share) required space the space
+
+
