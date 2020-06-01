@@ -1,0 +1,18 @@
+h2{
+        color: cornflowerblue;
+    
+}
+p{
+    color: blue;
+}
+
+h1{
+    background-color: green;
+}
+button{
+    margin: 10px;
+    background-color: grey;
+    color: indigo;
+    padding: 10px;
+}
+
