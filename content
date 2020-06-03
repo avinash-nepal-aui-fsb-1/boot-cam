@@ -95,4 +95,26 @@ Different kinds of data=> DATATYPES
 6. Announce 
 
 VARAIABLES
-var responses
+var responses 
+
+=====================================
+
+CSS FLEXBOX
+display: Flex
+
+two way to Alignment
+1 left to right  or horizontal
+2 top to bottom or vertical
+
+
+Axis
+decide 
+you can select/choose any of the above axis to be the main axis,
+ another become the cross axis.
+
+ MAIN -> justify-content
+ cross-> allign -items
+
+
+ Parent HTML
+ Children HTML 
