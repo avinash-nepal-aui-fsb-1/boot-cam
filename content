@@ -97,6 +97,41 @@ Different kinds of data=> DATATYPES
 VARAIABLES
 var responses 
 
+// Variables - Hold data
+// Data - different types - datatypes
+// Datatypes -
+//   Primitive datatypes - String, Number, Boolean
+//   Advanced datatypes - Array
+// Array - Number, String, Boolean
+// Array - indexes
+// ["A", "A", "B", "B", "A"] - 5
+// 0, 1, 2, 3, 4
+// var name = "Aditya"; // String
+// var age = 25; // Number
+// var isYoung = true; // Boolean
+// var marks = [20, 30, 35, 40, 45] // Array
+// var students = ["avinash", "manoj", "priyanka"]
+// var
+1. Collect all the chits -> 5 chits ----> (DATA - HOLD) - DONE
+2. Created two vote buckets for A and B ( 0, 0 ) ----> (DATA - HOLD) - DONE
+3. Take one chit
+4. Check response (either A or B) ----> (COMPARISON - CONDITIONAL)
+5. Put the chit in the respective bucket ( 1,0 or 0,1 ) ----> (DATA)
+6. Go through all the responses and repeat steps 3-5 ----> REPEAT, RECUSIVE, LOOPS
+7. Compare both buckets
+8. Announce the result
+var studentresponses = ["A", "A", "B", "B", "A"];
+var aresponses = 0;
+var bresponses = 0;
+for(var i = 0; i < studentresponses.length; i++) {
+}
+Variables - how to create/declare a variables
+Data types
+  Primitive
+  Advanced / Non-Primitive
+Loops -> For
+Conditions
+
 =====================================
 
 CSS FLEXBOX
