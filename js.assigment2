@@ -1,0 +1,46 @@
+Q1
+var name = ["jimmy","kevin","sarfaraz","veena","manoj"];
+
+for (var i = 0; i < name.length; i++) {
+    console.log("longest name"+ name[i])
+;
+console.log ("The "+name[i]+"name contains"+ (name[i].length)+" letters in it.");
+}
+if jimmy.length > kevin.length keep jimmy else keep jimmy
+
+if jimmy.length > sarfaraz.length keep jimmy else sarfaraz
+if kevin.length > sarfaraz.length keep kevin else sarfaraz
+
+if jimmy.length > veena.length keep jimmy else veena
+if kevin.length > veena.length keep kevin else veena
+if sarfaraz.length > veena.length keep sarfaraz else veena
+
+if jimmy.length > manoj.length keep jimmy else manoj
+if kevin.length > manoj.length keep kevin else manoj
+if sarfaraz.length > manoj.length keep sarfarz else manoj
+if veena.length > manoj.length keep veena else manoj
+
+Q2
+function vowel_count(name)
+{
+    var vowel_list = "aeiou";
+    var vcount = 0;
+
+    for (var name[i] = 0; i < name.length ; i++ )
+{
+    if (vowel_list.indexof (name[i]) !== -1)
+{
+    vcount += 1;
+}
+    else { 
+    consonantCount = consonantCount +1
+}
+
+return vcount;
+}
+console.log(vowel_count("name"));
+console.log("Consonants", consonantCount);
+
+Q3
+
+
