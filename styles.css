@@ -51,7 +51,7 @@
 }
 
 .page-option {
-   border-bottom: 1px lightgrey; 
+    border-bottom: 1px lightgrey;  
 }
 
 .page-option h1 {
@@ -76,3 +76,51 @@
 .footer {
     padding: 1rem 160px;
 }
+
+@media only screen and (max-width: 768px) {
+    .page-options {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (min-width: 500px) { 
+    .main-content p {
+        background-color: grey;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    .main-content p {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+.main-content p {
+    background-color: green;    }
+
+    /* min-> ascending order
+    max-> descending order */
+
+ @media only screen and (min-width:400px) and (max-width: width 500px) {
+ .main-content p {
+     background-color: pink;
+ } 
+}
+
+/* mobile : first
+default-> mobile-> smallest scfreen size
+min-width
+tablets
+small laptops - mac air
+bigger laptops
+
+desktop first
+max-width
+default-> smart tvs
+bigger laptops
+small laptops
