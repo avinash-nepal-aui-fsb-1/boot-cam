@@ -1,0 +1,40 @@
+* {
+    margin: 1px;
+    padding: 15px;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #343a40; 
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar-link {
+    font-size: 20px;
+    color: white
+}
+
+.flex-div {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 200px;
+}
+@media only screen and (min-width: 400px) { 
+    .flex-div {
+        background-color: grey;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .flex-div {
+        background-color: yellow;
+    }
+}
