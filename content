@@ -160,4 +160,18 @@ you can select/choose any of the above axis to be the main axis,
  tablets 600-900px
  phones - 400px
 
- 
+
+width, ht -> %
+have div,p tag
+margin, padding -> rem
+fontsize ->  px
+
+operators 
++,-,*,/,%, ** -> mathematical operators
+and , or , not -> logical operators
+&&, ||, !=
+
+and , or must have 2 conditions true, false.
+true or false-> true
+true and false=> false
+false and true-> false

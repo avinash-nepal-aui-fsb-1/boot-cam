@@ -1,0 +1,262 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px 30px;
+    box-shadow: 0 3px 5px -3px gray;
+}
+
+.brand-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-btn {
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    line-height: 24px;
+}
+
+.pricing-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 325px;
+    text-align: center;
+}
+
+.pricing-heading {
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.pricing-para {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container {
+    margin: 40px 180px;
+}
+
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(201, 192, 192, 0.575);
+}
+
+.card-header {
+    margin-bottom: 0;
+    background-color: #eee;
+}
+
+.font-weight-normal {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.btn {
+    width: 85%;
+    font-size: 18px;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #007bff;
+}
+
+.btn-outline-primary {
+    background-color: #fff;
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 1px solid #eee;
+}
+
+.col {
+    width: 25%;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.below-logo {
+    margin-top: 10px;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-hover:hover {
+    text-decoration: underline;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card {
+        width: 280px;
+        height: 350px;
+    }
+
+    .list-unstyled {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .pricing-header {
+        margin: 30px 200px;
+    }
+
+    .container {
+        margin: 30px 150px;
+    }
+
+    .card:nth-child(3) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        margin: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .pricing-header,
+    .container {
+        margin: 30px 80px;
+    }
+
+    .card:nth-child(3) {
+        margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .pricing-header,
+    .container {
+        margin: 30px 50px;
+    }
+
+    .card {
+        margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-container {
+        display: inline-block;
+    }
+
+    .brand-name {
+        margin: 5px;
+        text-align: center;
+    }
+
+    .nav-right {
+        height: 80px;
+    }
+
+    .nav-item {
+        float: left;
+        width: 15%;
+        margin: 10px 5px;
+    }
+
+    .nav-btn {
+        margin-left: 35%;
+    }
+
+    .pricing-header,
+    .container {
+        margin: 30px 50px;
+    }
+
+    .card {
+        margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .footer-col {
+        width: 100% !important;
+    }
+
+    .col {
+        width: 40%;
+        margin: 0 5px;
+    }
+}
