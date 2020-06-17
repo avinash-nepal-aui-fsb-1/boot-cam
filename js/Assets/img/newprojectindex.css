@@ -1,0 +1,14 @@
+.jumbotron{
+    background: repeating-linear-gradient(rgba(22, 22, 22, 0.62), rgba(22, 22, 22, 0.6)), no-repeat left top, url(/Users/avinashnepal/Desktop/Attain U/Bootcamp/boot-cam/js/Assets/img/recipe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.footer{
+   
+    color: white;
+    height: 50px;
+    text-align: center;
+}

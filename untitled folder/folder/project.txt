@@ -1,0 +1,31 @@
+This project is for bootcamp
+Aditya - Hello
+
+
+Create a folder
+Change directory into the folder
+Add a file
+sudo git init -> Create an empty repository
+git status -> To check the contents of the repo, as well the changes in the folder
+git add filename
+ 
+ styles.css
+
+ p
+ px-> font size width, ht
+ em -16px-20px
+ rem-> 16px
+ % ->
+ vh- viewport ht
+ vw- viewport width
+
+ how to debug/use developer tools
+ different unit of size
+
+ box model 4 layers
+
+ content
+ padding
+ border
+ margin
+ 

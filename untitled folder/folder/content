@@ -1,0 +1,177 @@
+styles.css
+
+ p
+ px-> font size width, ht
+ em -16px-20px
+ rem-> 16px
+ % ->
+ vh- viewport ht
+ vw- viewport width
+
+ how to debug/use developer tools
+ different unit of size
+
+ box model 4 layers
+
+ content
+ padding
+ border
+ 
+ margin
+
+101 students (data - hold)
+ 2 picnic spots -> A andB
+
+2. collect all the responses
+create 2 vote counts A& B (0,0)
+3. Check (a or b) (sort it "conditional")
+4. put the chit in the respective category
+5. go through all the responses and repeat steps 3-5 repate, recusive, loops
+6. compare both 
+7. announce the result
+
+DATA -> A way to hold some data- variables
+conditions-> A way to take decisions-> if/else Condition 
+LOOPS-> doing some thing recursively-> for loop 
+
+
+1. we will use a variable to hold all the responses 
+2. we will use variables the buckets 
+3. Go through all the responses with A for LOOPS
+4. we will use an if /Else conditionals statement
+5. Compare A and B 
+6. Announce 
+
+Css Flex box
+Targeting elements on the page
+1. Element directly (target all the similar elements on the page)
+2. Class (target a set of element)-> A subset
+3. ID 
+
+
+
+element level Targeting
+color
+padding
+margin
+font-weight
+border
+width
+height
+
+visual properties -> colors, background-colors, Font-family
+DImensional properties-> ht, wt, font size, padding
+Alignment properties -> display (key value pair) 
+
+display: block=> doesn't let another element sit next to it.
+p
+div
+h1-h6
+
+display: inline-block=> it lets another element (share) required space the space
+
+
+101 students (data - hold)
+ 2 picnic spots -> A andB
+
+2. collect all the responses
+create 2 vote counts A& B (0,0)
+3. Check (a or b) (sort it "conditional")
+4. put the chit in the respective category
+5. go through all the responses and repeat steps 3-5 repate, recusive, loops
+6. compare both 
+7. announce the result
+
+DATA -> A way to hold some data- variables
+conditions-> A way to take decisions-> if/else Condition 
+LOOPS-> doing some thing recursively-> for loop 
+Different kinds of data=> DATATYPES
+
+1. we will use a variable to hold all the responses 
+2. we will use variables the buckets 
+3. Go through all the responses with A for LOOPS
+4. we will use an if /Else conditionals statement
+5. Compare A and B 
+6. Announce 
+
+VARAIABLES
+var responses 
+
+// Variables - Hold data
+// Data - different types - datatypes
+// Datatypes -
+//   Primitive datatypes - String, Number, Boolean
+//   Advanced datatypes - Array
+// Array - Number, String, Boolean
+// Array - indexes
+// ["A", "A", "B", "B", "A"] - 5
+// 0, 1, 2, 3, 4
+// var name = "Aditya"; // String
+// var age = 25; // Number
+// var isYoung = true; // Boolean
+// var marks = [20, 30, 35, 40, 45] // Array
+// var students = ["avinash", "manoj", "priyanka"]
+// var
+1. Collect all the chits -> 5 chits ----> (DATA - HOLD) - DONE
+2. Created two vote buckets for A and B ( 0, 0 ) ----> (DATA - HOLD) - DONE
+3. Take one chit
+4. Check response (either A or B) ----> (COMPARISON - CONDITIONAL)
+5. Put the chit in the respective bucket ( 1,0 or 0,1 ) ----> (DATA)
+6. Go through all the responses and repeat steps 3-5 ----> REPEAT, RECUSIVE, LOOPS
+7. Compare both buckets
+8. Announce the result
+var studentresponses = ["A", "A", "B", "B", "A"];
+var aresponses = 0;
+var bresponses = 0;
+for(var i = 0; i < studentresponses.length; i++) {
+}
+Variables - how to create/declare a variables
+Data types
+  Primitive
+  Advanced / Non-Primitive
+Loops -> For
+Conditions
+
+=====================================
+
+CSS FLEXBOX
+display: Flex
+
+two way to Alignment
+1 left to right  or horizontal
+2 top to bottom or vertical
+
+
+Axis
+decide 
+you can select/choose any of the above axis to be the main axis,
+ another become the cross axis.
+
+ MAIN -> justify-content
+ cross-> allign -items
+
+
+ Parent HTML
+ Children HTML 
+
+ big desktop -2100-1400px
+ normal desktop - 1200- 1400 px
+ desktop 900-1200px
+ tablets 600-900px
+ phones - 400px
+
+
+width, ht -> %
+have div,p tag
+margin, padding -> rem
+fontsize ->  px
+
+operators 
++,-,*,/,%, ** -> mathematical operators
+and , or , not -> logical operators
+&&, ||, !=
+
+and , or must have 2 conditions true, false.
+true or false-> true
+true and false=> false
+false and true-> false
